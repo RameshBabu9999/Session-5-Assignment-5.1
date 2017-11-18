@@ -1,0 +1,22 @@
+</!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function AreaFunction() {
+var radius =document.theform.rad.value;
+var result= (Math.PI *radius*radius);
+alert("the area of circle is "+result);
+
+}
+</script>
+</head>
+<body>
+<form name="theform">
+<h2>Enter the radius of the circle</h2>
+Radius:<input type="text" name="rad" ><br>
+<h3>Click the button to find Area of Circle below</h3>
+<input type="button" value="Calculate Area Of Circle" onclick="AreaFunction()">
+</form>
+</body>
+</html>
